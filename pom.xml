@@ -4,6 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+<<<<<<< HEAD
     <groupId>com.eventmanager</groupId>
     <artifactId>guest-management</artifactId>
     <version>1.0-SNAPSHOT</version>
@@ -115,3 +116,16 @@
     </build>
 </project>
 
+=======
+    <groupId>org.example</groupId>
+    <artifactId>No_hay_dos_sin_tres</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+</project>
+>>>>>>> 34f3ae3e94926e4ac7ebd4691f5755e1378df342

@@ -1,11 +1,17 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<<<<<<< HEAD
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html lang="es">
+=======
+<!DOCTYPE html>
+<html>
+>>>>>>> 34f3ae3e94926e4ac7ebd4691f5755e1378df342
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema de Gestión de Invitados</title>
+<<<<<<< HEAD
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="<c:url value='/css/styles.css'/>">
@@ -59,3 +65,35 @@
 </body>
 </html>
 
+=======
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Bienvenido al Sistema de Gestión de Invitados</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="invitados?accion=listar">Ver Todos los Invitados</a></li>
+            <li><a href="invitados?accion=mostrarFormularioAlta">Agregar Nuevo Invitado</a></li>
+            <li><a href="invitados?accion=mostrarFormularioBaja">Eliminar Invitado</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="info-card">
+            <h2>Gestione su evento con facilidad</h2>
+            <p>Esta aplicación le permite administrar de manera sencilla la lista de invitados para su evento.</p>
+            <p>Utilice el menú superior para navegar entre las diferentes funciones disponibles.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sistema de Gestión de Invitados</p>
+    </footer>
+</div>
+</body>
+</html>
+>>>>>>> 34f3ae3e94926e4ac7ebd4691f5755e1378df342
